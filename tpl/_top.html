@@ -1,0 +1,18 @@
+<div id="top" role="banner">
+  <div id="topban">
+    <h1><span><a href="{{tpl:BlogURL}}">{{tpl:BlogName encode_html="1"}}</a></span></h1>
+    <p id="blogdesc">{{tpl:BlogDescription cut_string="100" remove_html="1" encode_html="1"}}</p>
+  </div>
+
+  <!-- # --BEHAVIOR-- publicTopAfterContent -->
+  {{tpl:SysBehavior behavior="publicTopAfterContent"}}
+
+<div class="opp"></div>
+<p id="prelude" role="navigation"><a href="#main">{{tpl:lang To content}}</a> |
+<a href="#blognav">{{tpl:lang To menu}}</a> |
+<a href="#search">{{tpl:lang To search}}</a></p>
+</div>
+
+<div id="menu">
+{{tpl:SimpleMenu description="title"}}
+</div>
