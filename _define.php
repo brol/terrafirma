@@ -13,10 +13,10 @@ $this->registerModule(
 	/* Name */			    "Terra Firma",
 	/* Description*/		"Original Theme by NodeThirtyThree",
 	/* Author */			  "David Yim (http://davidyim.fr/), Pierre Van Glabeke",
-	/* Version */			  '1.3',
+	/* Version */			  '1.4',
 	array(
 		'type'	 =>	'theme',
 		'tplset' => 'mustek',
-		'dc_min' => '2.9'
+		'dc_min' => '2.15'
 	)
 );
